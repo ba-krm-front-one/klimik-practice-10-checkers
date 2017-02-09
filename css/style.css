@@ -51,11 +51,34 @@ ul{
 	padding: 0;
 	list-style: none;
 	font-size: 0;
+	position: absolute;
+	z-index: 1;
+}
+ul:nth-child(26){
+	left: 160px;
+}
+ul:nth-child(27){
+	left: 320px;
+}
+ul:nth-child(28){
+	left: 480px;
+}
+ul:nth-child(29){
+	left: 640px;
+}
+ul:nth-child(30){
+	left: 800px;
+}
+ul:nth-child(31){
+	left: 960px;
+}
+ul:nth-child(32){
+	left: 1120px;
 }
 li{
 	width: 160px;
 	height: 160px;
-	display: inline-block;
+	/*display: inline-block;*/
 }
 .first-line:nth-child(odd){
 	background-color: #111;
@@ -68,6 +91,7 @@ img{
 	height: 140px;
 	border-radius: 50%;
 	position: absolute;
+	z-index: 2;
 }
 img:hover{
 	transform: scale(1.25);
